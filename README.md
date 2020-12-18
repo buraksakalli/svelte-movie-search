@@ -2,7 +2,7 @@
 
 ## Demo
 
-[Vercel](https://google.com)
+[Vercel](https://svelte-movie-search-psi.vercel.app/)
 
 ## Installation
 
