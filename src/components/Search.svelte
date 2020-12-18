@@ -7,7 +7,7 @@
   $: {
     if (movie) {
       axios
-        .get(`http://www.omdbapi.com/?apikey=7d164321&t=${movie}`)
+        .get(`https://www.omdbapi.com/?apikey=7d164321&t=${movie}`)
         .then(({ data }) => {
           if (data.Response == "True") dispatch("result", data);
           else dispatch("not_found", data.Error);
